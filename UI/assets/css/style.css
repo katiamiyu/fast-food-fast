@@ -21,7 +21,7 @@ h2{
     width: 90%;
     margin: auto;
 }
-header{
+header, .background-settings{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/confirmfood1.jpg');
     background-position: center;
     background-repeat: no-repeat;
