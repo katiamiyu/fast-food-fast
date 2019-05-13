@@ -126,6 +126,9 @@ input[type=submit]{
 #foodtable{
     overflow:scroll;
 }
+.one-two{
+    width: 48%;
+}
 @media only screen and (max-width: 750px) {
     .admin-gr {
         height: 580px;
