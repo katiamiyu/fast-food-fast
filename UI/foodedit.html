@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin | Fast-Food-Fast</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/foodedit.css">
+</head>
+<body class="background-settings">
+    <section>
+        <div class="container admin-gr">
+            <div class="nav-aside">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#">Users</a></li>
+                    <li><a href="./foods.html" class="current" >Foods</a></li>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">Log out</a></li>
+                </ul>
+            </div>
+            <aside>
+                <div class="modal-header">
+                    <h2>Admin: Adebayo Tiamiyu</h2>
+                </div>
+                    <fieldset class="def-set">
+                        <form action="">
+                            <h3>Edit Food</h3>
+                            <div class="form-gr">
+                                <label for="foodname" class="one-two">Name:
+                                    <input type="text" name="foodname" id="foodtxt" placeholder="Food">
+                                </label>
+                                <label for="description" class="one-two">Description:
+                                    <input type="text" name="description" id="descriptiontxt" placeholder="Description" >
+                                </label>
+                            </div>
+                            <div class="form-gr">
+                                <label for="category" class="one-two">Category:
+                                    <select name="category" id="categorytxt">
+                                        <option value="choose">Choose</option>
+                                        <option value="local">Local</option>
+                                        <option value="intl">International</option>
+                                        <option value="pastery">Pasteries</option>
+                                        <option value="desearts">Desearts</option>
+                                    </select>
+                                </label>
+                                <label for="qty" class="one-two">Quantity:
+                                    <input type="number" name="qty" id="qtytxt" placeholder="Quantity">
+                                </label>
+                            </div>
+                            <div class="form-gr">
+                                <input type="submit" value="update"> <input type="submit" value="back">
+                            </div>
+                        </form>
+                    </fieldset>
+            </aside>
+        </div>
+    </section>   
+</body>
+</html>
