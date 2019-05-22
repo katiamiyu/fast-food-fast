@@ -1,0 +1,43 @@
+{
+  "name": "fast-food-fast",
+  "version": "1.0.0",
+  "description": "online food ordering app",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node src/app.js",
+    "start-dev": "nodemon --exec babel-node src/app.js",
+    "test": "mocha --require babel-polyfill --require babel-register src/spec/app.test.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katiamiyu/fast-food-fast.git"
+  },
+  "keywords": [
+    "online",
+    "food",
+    "order"
+  ],
+  "author": "katiamiyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katiamiyu/fast-food-fast/issues"
+  },
+  "homepage": "https://github.com/katiamiyu/fast-food-fast#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "express": "^4.17.0",
+    "mocha": "^6.1.4",
+    "babel-polyfill": "^6.26.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "nodemon": "^1.19.0"
+  }
+}
